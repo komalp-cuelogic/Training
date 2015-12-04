@@ -1,10 +1,13 @@
-<!DOCTYPE>
+<!DOCTYPE html>
+<html lang="en">
 
-<html>
+
 <head>
+<meta charset="utf-8">
+
 
 <!--Document Title-->
-<title>signup</title>
+<title>Login</title>
 
 
 <!--Style starts here-->
@@ -18,7 +21,6 @@ body {background-color: #000;
 }
 
 .container {width: 310px;
-background-color: #003366;
 margin: 0 auto;
 padding: 10px;
 margin-top: 8%;
@@ -47,7 +49,7 @@ border: none;
 border-radius: 3px;
 -moz-border-radius: 3px;
 -webkit-border-radius: 3px;
-color: #006ce6;
+color: #fff;
 font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 font-size: 14px;
 height: 50px;
@@ -62,7 +64,7 @@ border: none;
 border-radius: 3px;
 -moz-border-radius: 3px;
 -webkit-border-radius: 3px;
-color: #99cfff;
+color: #fff;
 cursor: pointer;
 font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 height: 50px;
@@ -106,16 +108,16 @@ color: #0078ff;
 <h1>Register Here</h1>
 <p>
 <!--Name-->
-<input type="text" required value="Name" onBlur="if(this.value=='')this.value='Name'" onFocus="if(this.value=='Name')this.value='' ">
+<input type="text" name="fname" placeholder="Name">
 </p>
 
 <p>
 <!--password-->
-<input type="password" required value="Password" onBlur="if(this.value=='')this.value='Password'" onFocus="if(this.value=='Password')this.value='' "></p>
+<input type="password" name="password" placeholder="Password"></p>
 
 <p>
 <!--email-->
-<input type="text" required value="Email" onBlur="if(this.value=='')this.value='Email'" onFocus="if(this.value=='Email')this.value='' "></p>
+<input type="text" name="email" placeholder="Email"></p>
 
 <p>
 <!--gender-->

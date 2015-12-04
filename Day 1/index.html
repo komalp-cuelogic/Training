@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>THINK</title>
+<link rel="stylesheet "href="style.css">
+<scripts src="script.js"></script>
+<!--style starts from here-->
+<style>
+
+.main-container{
+width: 100%;
+background-color: #fff; 
+height: auto;
+position: absolute;
+top: 0%;
+left: 0%;
+}
+
+header{
+width: 100%;
+position: relative;
+background-color: #4c4c34; 
+}
+
+.logo{
+	width: 100px;
+	height: 40px;
+    padding: 10px 0px 0px 20px;
+    float: left;
+
+}
+.header-container{
+width:960px;
+height:70px;
+margin: auto;
+background-color: #2d2d20;
+margin-bottom: 0px;
+
+}
+
+.banner{
+	height: 600px;
+    width: 100%;
+	background: url(images/banner_new.jpg) no-repeat center center;
+    background-size: 100%;
+    background-color: #cccccc;
+}
+
+.banner-text{
+	width: 960px;
+	height: 50px;
+	margin: auto;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 27px;
+	padding: 200px 0px 0px 100px;
+	text-transform: uppercase;
+	color: #2d2d20;
+
+
+}
+
+.nav-container{
+width: 200px;
+height: 30px;
+margin: 0px 0px 0px 500px;
+padding: 40px 0px 0px 0px;
+float: left;
+
+
+}
+
+.nav-container ul{
+padding: 0px;
+margin: 0px;
+
+}
+
+.nav-container ul li{
+list-style: none;
+float: left;
+}
+
+.nav-container ul li a{
+	display: block;
+	width: 20px;
+	height: 20px;
+	padding: 0px 20px 0px 20px;
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 14px;
+	color: #d4d4c4;
+
+}
+
+.nav-container ul li a:hover{
+    color: #fff;
+}
+
+.signout{
+	float: left;
+	margin: 32px 20px 0px 40px;
+    }
+
+	.signout a{
+	display: block;
+	width: 70px;
+	height: 20px;
+	text-decoration: none;
+	color: white;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	text-align: center;
+	background-color: #4c4c34;
+	padding: 5px 0px 0px 0px;   
+	}
+
+	.signout a:hover{
+    display: block;
+	width: 70px;
+	height: 20px;
+	background-color: #1e1e15;
+	text-align: center;
+	}
+
+	.main-content{
+
+	width: 960px;
+	height: 400px;
+	background-color: #fff;
+	margin: auto;
+	}
+
+	.thumb{
+		width: 300px;
+		height: 320px;
+		background-color: #fff;
+		margin: 45px 8px 8px 8px;
+		float: left;
+		border: solid 1px #ccc;
+		border-top: solid 6px  #4c4c34;
+    }
+    .img{
+width: 300px;
+height: 170px;
+margin:0px;
+}
+
+.text{
+width: 280px;
+height: auto;
+color: #8c8c8c;
+font-size: 12px;
+text-align: justify;
+padding: 0px 10px 0px 10px;
+margin: auto;
+font-family: "Trebuchet MS", Helveti	ca, sans-serif;
+}
+
+.sm-text{
+color: #8c8c8c;
+font-size: 25px;
+font-family: "Trebuchet MS", Helveti	ca, sans-serif;
+
+}
+
+.button a{
+    display: block;
+	width: 300px;
+	height: 35px;
+	background-color: red;
+	margin-bottom: 0px;
+	background-color: #4c4c34;
+	text-align: center;
+	margin: 16px 0px 0px 0px;
+	padding-top: 15px;
+	font-family: "Trebuchet MS", Helveti	ca, sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+.button a:hover{
+    display: block;
+	width: 300px;
+	height: 35px;
+	background-color: red;
+	margin-bottom: 0px;
+	background-color: #6a6a49;
+	text-align: center;
+	margin: 16px 0px 0px 0px;
+	padding-top: 15px;
+	font-family: "Trebuchet MS", Helveti	ca, sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+
+footer{
+width: 100%;
+position: relative;
+background-color: #4c4c34; 
+height: 120px;
+
+}
+.footer-container{
+	width: 960px;
+	background-color: #2d2d20;
+	margin: auto;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    font-family: "Trebuchet MS", Helveti	ca, sans-serif;
+    padding: 40px 0px 0px 0px;
+    height: 80px;
+
+}
+</style>
+<!--style ends from here-->
+
+</head>
+
+<body>
+<div class="main-container">
+	<header>
+    <div class="header-container">
+        <div class="logo"><img src="images/logo_new.png"></div>
+        <nav class="nav-container">
+        <ul>
+        	<li><a href="#">home</a></li>
+        	<li><a href="#">blog</a></li>
+        	<li><a href="#">contact</a></li>
+        </ul>
+       </nav>
+       <div class="signout"><a href="#">sign out</a></div>
+
+    </div>
+	</header>
+	<div class="banner">
+     <div class="banner-text">If you think <br>you can do a thing <br><span class="sm-text">or</span><br> think you can't do a thing <br>you <a href=""></a>re right</div>
+   </div>
+         <section>
+     <div class="main-content">
+     <div class="thumb">
+        <p class="img"><img src="images/thumb.jpg"></p>
+        <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, </p>
+        <p class="button"><a href="#">Know more</a></p>
+     </div>
+     <div class="thumb">
+        <p class="img"><img src="images/thumb_1.jpg"></p>
+        <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, </p>
+        <p class="button"><a href="#">Know more</a></p>
+        </div>
+     <div class="thumb">
+        <p class="img"><img src="images/thumb_2.jpg"></p>
+        <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, </p>
+        <p class="button"><a href="#">Know more</a></p>
+     </div>
+     </div>
+      </section>
+
+<footer><div class="footer-container">Copyright © 20014-2015 Think</div></footer>
+</div>
+
+</body>
+</html>
+
