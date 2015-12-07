@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	
+
+	<!--Document Title-->
+	<title>Global eApps</title>
+
+	<meta charset="utf-8">
+    <meta name="description" content="e application related description">
+	<meta name="keywords" content="aaplication, mobile, technology">
+	<meta name="author" content="global eapps">
+
+
+    <!--Style starts here-->
+
+	<style>
+	body {
+		color: #000;
+		font-size: 14px;
+		font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	}
+
+	.wrapper{
+		width: 100%;
+		background-color: #00274d;
+		position: absolute;
+		height: auto;
+		top: 0%;
+		left: 0%;
+	}
+
+	header {
+		width: 100%;
+		position:relative;
+		height: 130px;
+		background-color: #001a33;
+	}
+
+	.container{
+		width: 960px;
+		height:  130px;
+		margin: auto;
+	}
+
+	.logo{
+		width: 200px;
+		height: 80px;
+		float: left;
+		margin: 25px 0 0 0px;
+	}
+
+	.menu{
+		width:300px;
+		height: 50px;
+		float: left;
+		margin: 40px 0px 0px 335px;
+
+	}
+	.menu ul{
+		font-size: 14px;
+		font-family: Arial;
+	}
+
+	.menu ul li{
+		float: left;
+		padding: 0px 0px 0px 35px ;
+		list-style: none;
+
+	}
+
+	.menu ul li a{
+		color: #cce6ff;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 14px;
+		font-family: Arial;
+
+
+	}
+	.signout a{
+		display: block;
+		width: 80px;
+		height: 20px;
+		background-color: #005bb3;
+		float: left;
+		margin: 45px 0px 0px 40px;
+		padding: 6px 2px 2px 2px;
+		color: #cce6ff;
+		font-size: 12px;
+		font-family: Arial;
+		text-align: center;
+		text-decoration: none;
+		text-transform: uppercase;
+
+	}
+
+	.signout a:hover{
+		display: block;
+		width: 80px;
+		height: 20px;
+		background-color: #003466;
+		float: left;
+		margin: 45px 0px 0px 40px;
+		padding: 6px 2px 2px 2px;
+		color: #cce6ff;
+		font-size: 12px;
+		font-family: Arial;
+		text-align: center;
+		text-transform: uppercase;
+
+	}
+
+	.banner{
+		width: 960px;
+		height: 500px;
+		margin: 10px auto;
+
+	}
+
+	.content{
+		width: 960px;
+		height: 300px;
+		margin: 0px auto 0px auto;
+		padding: 0px;
+	}
+
+	.thumb{
+		width: 310px;
+		height: 290px;
+		background-color: black;
+		float: left;
+		margin: 0px 5px 0px 5px;
+	}
+
+
+	.img{
+		width: 310px;
+		height: 120px;
+		color: #cce6ff;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 11px;
+		font-family: Arial;
+		text-align: justify;
+		line-height: 13px;
+
+	}
+	.img p{
+		padding: 15px;
+	}
+
+	.table-container{
+
+		width: 960px;
+		height: 100%;
+		margin: auto;
+
+
+	}
+
+	.table-main{
+	width: 960px;
+	height: 500px;
+	background-color: #001a33;
+	margin: auto;
+	border-spacing: 0px;
+	padding: 5px;
+	margin: 10px auto;
+	text-align: left;
+	font-size: 13px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+td{
+   border: solid 1px #ffefe5;
+   background-color: #cce7ff;
+   padding-left: 10px;
+}
+
+caption{
+   color: #fff;
+   font-family: Verdana, Geneva, sans-serif;
+   font-size: 20px;
+   padding: 20px;
+}
+
+.list-container{
+
+	width: 960px;
+		height: 100%;
+		margin: auto;
+
+}
+
+.list-main{
+	width: 960px;
+	height: 462px;
+	background-color: #001a33;
+	margin: auto;
+     padding: 5px;
+	margin: 40px auto;
+	text-align: left;
+	font-size: 13px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.list-main ul{
+margin: 0px;
+padding: 0px;
+width: 960px;
+
+}
+
+.list-main li{
+list-style: none;
+color: #000;
+ display: block;
+ height: 20px;
+ width: 173px;
+ float: left;
+ border: solid 1px #ffefe5;
+ margin: auto;
+ padding-left: 5px;
+ background-color: #cce7ff;
+
+}
+
+.list-head{
+   width: 960px;
+   height: 10px;
+   color: #fff;
+   font-family: Verdana, Geneva, sans-serif;
+   font-size: 20px;
+   text-align: center;;
+   
+}
+
+.list-main ul li .list-heading{
+
+   background-color: #001a33;
+   color: #fff;
+   font-family: Verdana, Geneva, sans-serif;
+
+
+
+}
+
+.list-main ul li.srno{width: 80px;}
+.list-main ul li.sub{width: 510px;}
+.list-main ul li.year{width: 170px;}
+.list-main ul li.stu{width: 170px;}
+
+	footer {
+
+		width:100%;
+		height:100px; 
+		position: relative;
+		bottom:0;
+		left:0;
+		background-color: #001a33;
+
+	}
+	</style>
+
+	<!--Style end here-->
+
+</head>
+
+<body>
+	<!--Header starts here-->
+	<div class="wrapper">
+		<header>
+			<div class="container">
+				<div class="logo"><img src="images/logo.png"></div>
+				<div class="menu">
+					<nav>
+						<ul>
+							<li><a href="#">home</a></li>
+							<li><a href="#">blog</a></li>
+							<li><a href="#">contact</a></li>
+						</ul>
+					</nav>
+				</div>
+
+				<div class="signout"><a href="#">Sign Out</a></div>
+			</div>
+		</header>
+		<!--Header ends here-->
+
+		<div class="banner"><img src="images/banner.jpg"></div>
+
+		<div class="content">
+
+			<div class="thumb">
+				<div class="img">
+					<img src="images/thumb-1.jpg">
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</p>
+				</div>
+
+			</div>
+			<div class="thumb">    
+				<div class="img">
+					<img src="images/thumb-2.jpg">
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</p>
+				</div></div>
+
+				<div class="thumb">    
+					<div class="img">
+						<img src="images/thumb-3.jpg">
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</p>
+					</div></div>
+</div>
+
+
+<div class="table-container">
+
+ <table class="table-main">
+     	<caption>Table Format</caption>
+     	<tr>
+     		<td>Sr No</td>
+     		<td>Subject</td>
+     		<td>Year</td>
+     		<td>Students</td>
+     	</tr>
+     	<tr>
+     		<td width="50px">1</td>
+     		<td width="300px">Lorem Ipsum is simply</td>
+     		<td width="100px">1981</td>
+     		<td width="100px">Lorem Ipsum</td>
+     	</tr>
+     	<tr>
+     		<td>2</td>
+     		<td>Lorem Ipsum is simply</td>
+     		<td>1982</td>
+     		<td>Lorem Ipsum </td>
+     	</tr>
+     	<tr>
+     		<td>3</td>
+     		<td>Lorem Ipsum is simply</td>
+     		<td>1983</td>
+     		<td>Lorem Ipsum </td>
+     	</tr>
+     	<tr>
+     		<td>4</td>
+     		<td>Lorem Ipsum is simply</td>
+     		<td>1984</td>
+     		<td>Lorem Ipsum </td>
+     	</tr>
+     	<tr>
+     		<td>5</td>
+     		<td>Lorem Ipsum is simply</td>
+     		<td>1985</td>
+     		<td>Lorem Ipsum</td>
+     	</tr>
+     	 <tr>
+     		<td>6</td>
+     		<td>Lorem Ipsum is simply</td>
+     		<td>1986</td>
+     		<td>Lorem Ipsum</td>
+     	</tr>
+     	<tr>
+     		<td>7</td>
+     		<td>Lorem Ipsum is simply</td>
+     		<td>1987</td>
+     		<td>Lorem Ipsum </td>
+     	</tr>
+     	<tr>
+     		<td>8</td>
+     		<td>Lorem Ipsum is simply</td>
+     		<td>1988</td>
+     		<td>Lorem Ipsum</td>
+     	</tr>
+     	<tr>
+     		<td>9</td>
+     		<td>Lorem Ipsum is simply</td>
+     		<td>1989</td>
+     		<td>Lorem Ipsum </td>
+     	</tr>
+     	<tr>
+     		<td>10</td>
+     		<td>Lorem Ipsum is simply</td>
+     		<td>1990</td>
+     		<td>Lorem Ipsum </td>
+     	</tr>
+     	<tr>
+     		<td>11</td>
+     		<td>Lorem Ipsum is simply</td>
+     		<td>1991</td>
+     		<td>Lorem Ipsum </td>
+     	</tr>
+     	<tr>
+     		<td>12</td>
+     		<td>Lorem Ipsum is simply</td>
+     		<td>1992</td>
+     		<td>Lorem Ipsum </td>
+     	</tr>
+     	<tr>
+     		<td>13</td>
+     		<td>Lorem Ipsum is simply</td>
+     		<td>1993</td>
+     		<td>Lorem Ipsum </td>
+     	</tr>
+     	<tr>
+     		<td>14</td>
+     		<td>Lorem Ipsum is simply</td>
+     		<td>1994</td>
+     		<td>Lorem Ipsum </td>
+     	</tr>
+     	<tr>
+     		<td>15</td>
+     		<td>Lorem Ipsum is simply</td>
+     		<td>1995</td>
+     		<td>Lorem Ipsum</td>
+     	</tr>
+     	<tr>
+     		<td>16</td>
+     		<td>Lorem Ipsum is simply</td>
+     		<td>1996</td>
+     		<td>Lorem Ipsum</td>
+     	</tr>
+     	<tr>
+     		<td>17</td>
+     		<td>Lorem Ipsum is simply</td>
+     		<td>1997</td>
+     		<td>Lorem Ipsum </td>
+     	</tr>
+     	<tr>
+     		<td>18</td>
+     		<td>Lorem Ipsum is simply</td>
+     		<td>1998</td>
+     		<td>Lorem Ipsum </td>
+     	</tr>
+     	<tr>
+     		<td>19</td>
+     		<td>Lorem Ipsum is simply</td>
+     		<td>1999</td>
+     		<td>Lorem Ipsum</td>
+     	</tr>
+     	<tr>
+     		<td>20</td>
+     		<td>Lorem Ipsum is simply</td>
+     		<td>2000</td>
+     		<td>Lorem Ipsum </td>
+     	</tr>
+
+       </table>
+
+
+</div>
+				
+<div class="list-container">
+         	<div class="list-head">List Format</div>
+     <div class="list-main">
+     	<ul>
+     	    <li class="list-heading srno">Sr No</li>
+     		<li class="list-heading sub">Subject</li>
+     		<li class="list-heading year">Year</li>
+     		<li class="list-heading stu">Students</li>
+     	</ul>
+     	     	<ul>
+     	    <li class="srno">1</li>
+     		<li class="sub">Lorem Ipsum is simply</li>
+     		<li class="year">1981</li>
+     		<li class="stu">Lorem Ipsum</li>
+     	</ul>
+     	     	<ul>
+     	    <li class="srno">2</li>
+     		<li class="sub">Lorem Ipsum is simply</li>
+     		<li class="year">1982</li>
+     		<li class="stu">Lorem Ipsum</li>
+     	</ul>
+     	     	<ul>
+     	    <li class="srno">3</li>
+     		<li class="sub">Lorem Ipsum is simply</li>
+     		<li class="year">1983</li>
+     		<li class="stu">Lorem Ipsum</li>
+     	</ul>
+     	     	<ul>
+     	    <li class="srno">4</li>
+     		<li class="sub">Lorem Ipsum is simply</li>
+     		<li class="year">1984</li>
+     		<li class="stu">Lorem Ipsum</li>
+     	</ul>
+     	     	     	<ul>
+     	    <li class="srno">5</li>
+     		<li class="sub">Lorem Ipsum is simply</li>
+     		<li class="year">1985</li>
+     		<li class="stu">Lorem Ipsum</li>
+     	</ul>
+     	     	     	<ul>
+     	    <li class="srno">6</li>
+     		<li class="sub">Lorem Ipsum is simply</li>
+     		<li class="year">1986</li>
+     		<li class="stu">Lorem Ipsum</li>
+     	</ul>
+     	     	     	<ul>
+     	    <li class="srno">7</li>
+     		<li class="sub">Lorem Ipsum is simply</li>
+     		<li class="year">1987</li>
+     		<li class="stu">Lorem Ipsum</li>
+     	</ul>
+     	     	     	<ul>
+     	    <li class="srno">8</li>
+     		<li class="sub">Lorem Ipsum is simply</li>
+     		<li class="year">1988</li>
+     		<li class="stu">Lorem Ipsum</li>
+     	</ul>
+     	     	     	<ul>
+     	    <li class="srno">9</li>
+     		<li class="sub">Lorem Ipsum is simply</li>
+     		<li class="year">1989</li>
+     		<li class="stu">Lorem Ipsum</li>
+     	</ul>
+     	     	     	<ul>
+     	    <li class="srno">10</li>
+     		<li class="sub">Lorem Ipsum is simply</li>
+     		<li class="year">1990</li>
+     		<li class="stu">Lorem Ipsum</li>
+     	</ul>
+     	     	     	<ul>
+     	    <li class="srno">11</li>
+     		<li class="sub">Lorem Ipsum is simply</li>
+     		<li class="year">1991</li>
+     		<li class="stu">Lorem Ipsum</li>
+     	</ul>
+     	     	     	<ul>
+     	    <li class="srno">12</li>
+     		<li class="sub">Lorem Ipsum is simply</li>
+     		<li class="year">1992</li>
+     		<li class="stu">Lorem Ipsum</li>
+     	</ul>
+     	     	     	<ul>
+     	    <li class="srno">13</li>
+     		<li class="sub">Lorem Ipsum is simply</li>
+     		<li class="year">1993</li>
+     		<li class="stu">Lorem Ipsum</li>
+     	</ul>
+     	     	     	<ul>
+     	    <li class="srno">14</li>
+     		<li class="sub">Lorem Ipsum is simply</li>
+     		<li class="year">1994</li>
+     		<li class="stu">Lorem Ipsum</li>
+     	</ul>
+     	     	     	<ul>
+     	    <li class="srno">15</li>
+     		<li class="sub">Lorem Ipsum is simply</li>
+     		<li class="year">1995</li>
+     		<li class="stu">Lorem Ipsum</li>
+     	</ul>
+     	     	     	<ul>
+     	    <li class="srno">16</li>
+     		<li class="sub">Lorem Ipsum is simply</li>
+     		<li class="year">1996</li>
+     		<li class="stu">Lorem Ipsum</li>
+     	</ul>
+     	     	     	<ul>
+     	    <li class="srno">17</li>
+     		<li class="sub">Lorem Ipsum is simply</li>
+     		<li class="year">1997</li>
+     		<li class="stu">Lorem Ipsum</li>
+     	</ul>
+     	     	     	<ul>
+     	    <li class="srno">18</li>
+     		<li class="sub">Lorem Ipsum is simply</li>
+     		<li class="year">1998</li>
+     		<li class="stu">Lorem Ipsum</li>
+     	</ul>
+     	     	     	<ul>
+     	    <li class="srno">19</li>
+     		<li class="sub">Lorem Ipsum is simply</li>
+     		<li class="year">1999</li>
+     		<li class="stu">Lorem Ipsum</li>
+     	</ul>
+     	     	     	     	<ul>
+     	    <li class="srno">20</li>
+     		<li class="sub">Lorem Ipsum is simply</li>
+     		<li class="year">2000</li>
+     		<li class="stu">Lorem Ipsum</li>
+     	</ul>
+     	     	     	     	
+     	
+
+     </div>
+     	
+
+</div>
+
+
+
+				<!--footer starts here-->
+				<footer></footer>
+				<!--footer ends here-->
+			</div>
+		</body>
+		</html>
